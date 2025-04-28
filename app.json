@@ -32,6 +32,18 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/TT-Norms-Pro-Bold.otf",
+            "./assets/fonts/TT-Norms-Pro-Light.otf",
+            "./assets/fonts/TT-Norms-Pro-Medium.otf",
+            "./assets/fonts/TT-Norms-Pro-Regular.otf",
+            "./assets/fonts/TT-Norms-Pro-Thin.otf"
+          ]
+        }
       ]
     ],
     "experiments": {
