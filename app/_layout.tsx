@@ -4,6 +4,8 @@ import { useEffect } from "react";
 import { Text, View } from "react-native";
 import "react-native-reanimated";
 import "../global.css";
+import { MyText } from "@/components/ui/MyText";
+import { Slot } from "expo-router";
 // Prevent the splash screen from auto-hiding before asset loading is complete.
 SplashScreen.preventAutoHideAsync();
 
@@ -27,10 +29,5 @@ export default function RootLayout() {
     return null;
   }
 
-  return (
-    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <Text style={{ fontSize: 20, fontFamily: "Regular" }}>123123</Text>
-      <View className="w-10 h-10 bg-blue-500" />
-    </View>
-  );
+  return <Slot />;
 }
